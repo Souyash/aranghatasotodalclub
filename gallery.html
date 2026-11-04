@@ -188,8 +188,20 @@
       <!-- Gallery Grid -->
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6" id="galleryGrid">
         
-        <!-- Photo 0: Illuminated Mandap -->
+        <!-- Photo 0: Golden Shikhara Mandap at Night -->
         <div class="gallery-item pandal lights group relative rounded-2xl overflow-hidden glass-card cursor-pointer" onclick="openLightbox(0)">
+          <div class="aspect-[4/3] overflow-hidden bg-slate-900">
+            <img src="assets/hero-banner.jpg" alt="Golden Shikhara Temple Mandap at Night" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+          </div>
+          <div class="p-5">
+            <span class="text-xs font-bold uppercase text-amber-600">Golden Shikhara Mandap</span>
+            <h4 class="font-cinzel font-bold text-lg text-gray-950 mt-1">Illuminated Temple Shikhara</h4>
+            <p class="text-xs font-bengali text-gray-600 mt-0.5">স্বর্ণালী শিখর সমন্বিত সুউচ্চ মন্দির মণ্ডপ ও ভক্ত সমাগম</p>
+          </div>
+        </div>
+
+        <!-- Photo 1: Illuminated Mandap Exterior -->
+        <div class="gallery-item pandal lights group relative rounded-2xl overflow-hidden glass-card cursor-pointer" onclick="openLightbox(1)">
           <div class="aspect-[4/3] overflow-hidden bg-slate-900">
             <img src="assets/pandal-exterior.jpg" alt="Illuminated Temple Mandap" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
           </div>
@@ -200,8 +212,8 @@
           </div>
         </div>
 
-        <!-- Photo 1: Interior Sanctum -->
-        <div class="gallery-item pandal group relative rounded-2xl overflow-hidden glass-card cursor-pointer" onclick="openLightbox(1)">
+        <!-- Photo 2: Interior Sanctum -->
+        <div class="gallery-item pandal group relative rounded-2xl overflow-hidden glass-card cursor-pointer" onclick="openLightbox(2)">
           <div class="aspect-[4/3] overflow-hidden bg-slate-900">
             <img src="assets/pandal-interior.jpg" alt="Sanctum Interior" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
           </div>
@@ -212,8 +224,8 @@
           </div>
         </div>
 
-        <!-- Photo 2: Traditional Pratima -->
-        <div class="gallery-item pratima group relative rounded-2xl overflow-hidden glass-card cursor-pointer" onclick="openLightbox(2)">
+        <!-- Photo 3: Traditional Pratima -->
+        <div class="gallery-item pratima group relative rounded-2xl overflow-hidden glass-card cursor-pointer" onclick="openLightbox(3)">
           <div class="aspect-[4/3] overflow-hidden bg-slate-900">
             <img src="assets/pratima-traditional.jpg" alt="Traditional Pratima" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
           </div>
@@ -224,8 +236,8 @@
           </div>
         </div>
 
-        <!-- Photo 3: Mythological Tableau -->
-        <div class="gallery-item pratima group relative rounded-2xl overflow-hidden glass-card cursor-pointer" onclick="openLightbox(3)">
+        <!-- Photo 4: Mythological Tableau -->
+        <div class="gallery-item pratima group relative rounded-2xl overflow-hidden glass-card cursor-pointer" onclick="openLightbox(4)">
           <div class="aspect-[4/3] overflow-hidden bg-slate-900">
             <img src="assets/pratima-tableau.jpg" alt="Mythological Tableau" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
           </div>
@@ -236,8 +248,8 @@
           </div>
         </div>
 
-        <!-- Photo 4: Golden Serpent Rath Murti -->
-        <div class="gallery-item pratima group relative rounded-2xl overflow-hidden glass-card cursor-pointer" onclick="openLightbox(4)">
+        <!-- Photo 5: Golden Serpent Rath Murti -->
+        <div class="gallery-item pratima group relative rounded-2xl overflow-hidden glass-card cursor-pointer" onclick="openLightbox(5)">
           <div class="aspect-[4/3] overflow-hidden bg-slate-900">
             <img src="assets/pratima-golden-rath.jpg" alt="Golden Rath Pratima" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
           </div>
@@ -248,8 +260,8 @@
           </div>
         </div>
 
-        <!-- Photo 5: Official Poster -->
-        <div class="gallery-item social group relative rounded-2xl overflow-hidden glass-card cursor-pointer border-2 border-amber-400/50" onclick="openLightbox(5)">
+        <!-- Photo 6: Official Poster -->
+        <div class="gallery-item social group relative rounded-2xl overflow-hidden glass-card cursor-pointer border-2 border-amber-400/50" onclick="openLightbox(6)">
           <div class="aspect-[4/3] overflow-hidden bg-slate-900">
             <img src="assets/social-banner.jpg" alt="Official Announcement Poster" class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500">
           </div>
@@ -328,6 +340,11 @@
     });
 
     const galleryData = [
+      {
+        src: "assets/hero-banner.jpg",
+        title: "Illuminated Temple Shikhara at Night",
+        desc: "আড়ংঘাটা শতদল ক্লাবের স্বর্ণালী শিখর সমন্বিত সুউচ্চ মন্দির মণ্ডপ ও ভক্ত সমাগম"
+      },
       {
         src: "assets/pandal-exterior.jpg",
         title: "Grand Temple Architecture at Night",

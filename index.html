@@ -218,41 +218,45 @@
   <main class="relative z-10">
 
     <!-- 1. HERO SECTION (GRAND ILLUMINATED TEMPLE MANDAP BANNER) -->
-    <section id="home" class="relative min-h-[90vh] sm:min-h-[95vh] flex items-center justify-center pt-14 pb-20 overflow-hidden bg-black text-white border-b-4 border-amber-500/40 shadow-2xl">
-      <!-- Background Image & Atmospheric Overlays -->
+    <section id="home" class="relative min-h-[92vh] sm:min-h-screen flex items-center justify-center pt-24 sm:pt-28 pb-20 overflow-hidden bg-black text-white border-b-4 border-amber-500/40 shadow-2xl">
+      <!-- Background Image & Cinematic Atmospheric Overlays -->
       <div class="absolute inset-0 z-0">
-        <img src="assets/hero-banner.jpg" alt="Aranghata Satadal Club Grand Illuminated Temple Mandap" class="w-full h-full object-cover object-center sm:object-top filter brightness-[0.75] contrast-[1.10] scale-100">
-        <div class="absolute inset-0 bg-gradient-to-b from-black/85 via-black/55 to-black/90"></div>
-        <div class="absolute inset-0 bg-gradient-to-t from-[#0c0508] via-transparent to-black/70"></div>
-        <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[750px] h-[380px] bg-amber-400/20 rounded-full blur-3xl pointer-events-none"></div>
+        <img src="assets/hero-banner.jpg" 
+             alt="Aranghata Satadal Club Grand Illuminated Temple Mandap" 
+             class="w-full h-full object-cover object-[center_65%] filter brightness-105 contrast-105"
+             style="object-position: center 65%;">
+        <!-- Light balanced vignette so the golden temple glows through brightly while text stays 100% legible -->
+        <div class="absolute inset-0 bg-gradient-to-b from-black/55 via-black/20 to-black/85"></div>
+        <div class="absolute inset-0 bg-radial-gradient from-transparent via-transparent to-black/50"></div>
+        <div class="absolute top-1/4 left-1/2 -translate-x-1/2 w-[700px] h-[350px] bg-amber-400/10 rounded-full blur-3xl pointer-events-none"></div>
       </div>
 
       <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
         
         <!-- Grand Official Logo Emblem -->
-        <div class="mx-auto mb-6 flex justify-center">
+        <div class="mx-auto mb-5 flex justify-center">
           <div class="relative group">
-            <div class="absolute -inset-1.5 rounded-full bg-gradient-to-r from-amber-300 via-rose-500 to-amber-400 opacity-80 blur-md group-hover:opacity-100 transition duration-500"></div>
-            <img src="assets/logo.jpg" alt="Aranghata Satadal Club Emblem" class="relative w-28 h-28 sm:w-36 sm:h-36 rounded-full object-cover border-4 border-amber-300 shadow-2xl group-hover:scale-105 transition-transform duration-300">
+            <div class="absolute -inset-1 rounded-full bg-gradient-to-r from-amber-300 via-rose-500 to-amber-400 opacity-90 blur-md group-hover:opacity-100 transition duration-500"></div>
+            <img src="assets/logo.jpg" alt="Aranghata Satadal Club Emblem" class="relative w-24 h-24 sm:w-28 sm:h-28 rounded-full object-cover border-4 border-amber-300 shadow-2xl group-hover:scale-105 transition-transform duration-300">
           </div>
         </div>
 
         <!-- Sacred Shloka Badge -->
-        <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-black/35 border border-amber-400/40 text-xs sm:text-sm text-amber-200 shadow-lg backdrop-blur-md mb-6">
+        <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-black/60 border border-amber-400/50 text-xs sm:text-sm text-amber-200 shadow-xl backdrop-blur-md mb-5">
           <i data-lucide="sparkles" class="w-4 h-4 text-amber-300"></i>
-          <span class="font-bengali font-semibold tracking-wide">।। সর্বমঙ্গলা মা শ্যামা শরণ্যে ত্র্যম্বকে গৌরী নারায়ণী নমোহস্তুতে ।।</span>
+          <span class="font-bengali font-semibold tracking-wide drop-shadow-md">।। সর্বমঙ্গলা মা শ্যামা শরণ্যে ত্র্যম্বকে গৌরী নারায়ণী নমোহস্তুতে ।।</span>
         </div>
 
         <!-- Grand Titles -->
-        <h2 class="font-bengali font-bold text-xl sm:text-2xl text-amber-300 tracking-wide mb-2 drop-shadow-sm">
+        <h2 class="font-bengali font-bold text-xl sm:text-2xl text-amber-300 tracking-wide mb-2 drop-shadow-[0_2px_8px_rgba(0,0,0,0.9)]">
           অরংঘাটা শতদল ক্লাবের ৫২তম বর্ষের নিবেদন
         </h2>
-        <h1 class="font-cinzel font-black text-4xl sm:text-6xl md:text-7xl lg:text-8xl tracking-tight text-white mb-4 drop-shadow-md">
-          SHREE SHREE <span class="text-amber-300 drop-shadow">SHYAMA PUJA</span> <span class="text-gold-gradient drop-shadow">2026</span>
+        <h1 class="font-cinzel font-black text-4xl sm:text-6xl md:text-7xl lg:text-8xl tracking-tight text-white mb-4 drop-shadow-[0_4px_20px_rgba(0,0,0,0.95)]">
+          SHREE SHREE <span class="text-amber-300 drop-shadow-[0_4px_16px_rgba(0,0,0,0.95)]">SHYAMA PUJA</span> <span class="text-gold-gradient drop-shadow-[0_4px_16px_rgba(0,0,0,0.95)]">2026</span>
         </h1>
 
-        <p class="text-base sm:text-xl text-rose-100 max-w-3xl mx-auto font-normal leading-relaxed mb-8 drop-shadow-sm">
-          Welcome to the sacred celebration of <span class="text-amber-300 font-semibold underline decoration-amber-400/40 underline-offset-4">Aranghata Satadal Club</span>. Where age-old spiritual devotion blends harmoniously with heritage art, dazzling lights, and united community spirit in Nadia, Bengal.
+        <p class="text-base sm:text-xl text-rose-100 max-w-3xl mx-auto font-medium leading-relaxed mb-8 drop-shadow-[0_2px_10px_rgba(0,0,0,0.95)]">
+          Welcome to the sacred celebration of <span class="text-amber-300 font-semibold underline decoration-amber-400/60 underline-offset-4">Aranghata Satadal Club</span>. Where age-old spiritual devotion blends harmoniously with heritage art, dazzling lights, and united community spirit in Nadia, Bengal.
         </p>
 
         <!-- CTA Buttons -->

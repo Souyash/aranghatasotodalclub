@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us | Aranghata Satadal Club (স্থাপিত – ১৯৬৯)</title>
+  <meta name="description" content="Learn about the 52+ years legacy of Aranghata Satadal Club, Nadia. Discover our history, executive committee leadership, and social service initiatives.">
+  <meta name="keywords" content="About Aranghata Satadal Club, Nadia Kali Puja Club, Satadal Club Committee, Aranghata Blood Donation">
+  <link rel="canonical" href="https://aranghatasatadalclub.com/about.html">
+
+  <!-- Open Graph / Meta -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="About Us | Aranghata Satadal Club">
+  <meta property="og:description" content="52+ years of glorious celebration, social responsibility, and cultural harmony in Nadia, West Bengal.">
+  <meta property="og:image" content="assets/logo.jpg">
+  <link rel="icon" type="image/jpeg" href="assets/logo.jpg">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800;900&family=Hind+Siliguri:wght@400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'crimson-festive': '#e11d48',
+            'crimson-dark': '#9f1239',
+            'sacred-gold': '#d97706',
+            'sacred-amber': '#b45309',
+            'divine-glow': '#fff1f2',
+          },
+          fontFamily: {
+            sans: ['Outfit', 'sans-serif'],
+            cinzel: ['Cinzel', 'serif'],
+            bengali: ['"Hind Siliguri"', 'sans-serif'],
+          },
+          boxShadow: {
+            'glow-gold': '0 0 20px -3px rgba(217, 119, 6, 0.25)',
+            'glow-crimson': '0 0 22px -3px rgba(225, 29, 72, 0.35)',
+            'glow-box': '0 4px 20px -2px rgba(225, 29, 72, 0.08)',
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <style>
+    ::-webkit-scrollbar { width: 8px; }
+    ::-webkit-scrollbar-track { background: #f8fafc; }
+    ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 4px; border: 1px solid rgba(225, 29, 72, 0.15); }
+    ::-webkit-scrollbar-thumb:hover { background: #e11d48; }
+
+    .bg-main-clean {
+      background-color: #ffffff;
+      background-image: 
+        radial-gradient(circle at 50% 0%, rgba(225, 29, 72, 0.05) 0%, transparent 60%),
+        radial-gradient(circle at 85% 20%, rgba(217, 119, 6, 0.04) 0%, transparent 45%),
+        radial-gradient(rgba(225, 29, 72, 0.07) 1px, transparent 1px);
+      background-size: 100% 100%, 100% 100%, 28px 28px;
+    }
+
+    .bg-section-pattern {
+      background-color: #fff9f9;
+      background-image: radial-gradient(rgba(225, 29, 72, 0.07) 1px, transparent 1px);
+      background-size: 28px 28px;
+    }
+
+    .glass-card {
+      background: #ffffff;
+      border: 1px solid rgba(225, 29, 72, 0.14);
+      box-shadow: 0 4px 20px -2px rgba(225, 29, 72, 0.05), 0 2px 6px -1px rgba(0, 0, 0, 0.03);
+      transition: all 0.25s ease;
+    }
+    .glass-card:hover {
+      border-color: rgba(225, 29, 72, 0.35);
+      transform: translateY(-2px);
+      box-shadow: 0 10px 25px -4px rgba(225, 29, 72, 0.12), 0 4px 10px -2px rgba(0, 0, 0, 0.04);
+    }
+
+    .glass-header {
+      background: rgba(255, 255, 255, 0.96);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-bottom: 1px solid rgba(225, 29, 72, 0.12);
+      box-shadow: 0 2px 12px rgba(0, 0, 0, 0.03);
+    }
+
+    .bg-hero-red {
+      background-color: #881337;
+      background-image: 
+        radial-gradient(circle at 50% 15%, rgba(245, 158, 11, 0.25) 0%, transparent 60%),
+        radial-gradient(circle at 85% 60%, rgba(225, 29, 72, 0.35) 0%, transparent 50%),
+        linear-gradient(180deg, #881337 0%, #9f1239 45%, #7f1d1d 100%),
+        radial-gradient(rgba(251, 191, 36, 0.12) 1px, transparent 1px);
+      background-size: 100% 100%, 100% 100%, 100% 100%, 28px 28px;
+    }
+
+    .text-crimson-gradient {
+      background: linear-gradient(135deg, #9f1239 0%, #e11d48 50%, #f43f5e 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  </style>
+</head>
+
+<body class="bg-main-clean text-gray-800 font-sans selection:bg-crimson-festive selection:text-white antialiased relative overflow-x-hidden">
+
+  <!-- Sound Ambience Controller -->
+  <div class="fixed bottom-6 right-6 z-40">
+    <button id="dhakAudioBtn" class="flex items-center gap-2.5 px-4 py-2.5 rounded-full bg-white border border-crimson-festive/30 text-crimson-festive shadow-lg hover:bg-crimson-festive hover:text-white transition-all group backdrop-blur-md text-sm font-semibold">
+      <span class="relative flex h-3 w-3">
+        <span id="audioPing" class="hidden absolute inline-flex h-full w-full rounded-full bg-crimson-festive opacity-75 animate-ping"></span>
+        <span id="audioDot" class="relative inline-flex rounded-full h-3 w-3 bg-crimson-festive"></span>
+      </span>
+      <i data-lucide="music" class="w-4 h-4"></i>
+      <span id="audioStatusText">Play Festive Dhak</span>
+    </button>
+  </div>
+
+  <!-- Toast Notification -->
+  <div id="toast" class="fixed top-20 right-6 z-50 transform translate-y-[-100px] opacity-0 transition-all duration-300 pointer-events-none bg-white border border-crimson-festive/30 text-gray-900 px-5 py-3 rounded-xl shadow-xl flex items-center gap-3">
+    <i data-lucide="check-circle" class="w-5 h-5 text-crimson-festive"></i>
+    <span id="toastMessage" class="text-sm font-medium">Copied to clipboard!</span>
+  </div>
+
+  <!-- STICKY HEADER / NAVIGATION -->
+  <header class="sticky top-0 z-40 w-full glass-header transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16 sm:h-20">
+        
+        <!-- Brand Logo & Name -->
+        <a href="index.html" class="flex items-center gap-2.5 sm:gap-3.5 group min-w-0 py-1">
+          <div class="relative w-10 h-10 sm:w-12 sm:h-12 rounded-full p-0.5 bg-gradient-to-tr from-amber-400 via-crimson-festive to-amber-500 shadow-md group-hover:scale-105 transition-all duration-300 flex-shrink-0">
+            <img src="assets/logo.jpg" alt="Aranghata Satadal Club Official Logo" class="w-full h-full rounded-full object-cover">
+          </div>
+          <div class="min-w-0 flex flex-col justify-center">
+            <span class="font-cinzel font-bold text-xs sm:text-base md:text-lg lg:text-xl tracking-wide text-gray-950 group-hover:text-crimson-festive transition-colors leading-tight">
+              ARANGHATA SATADAL CLUB
+            </span>
+            <span class="font-bengali text-[11px] sm:text-xs text-crimson-festive font-semibold tracking-wide leading-tight mt-0.5">
+              আড়ংঘাটা শতদল ক্লাব
+            </span>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <nav class="hidden lg:flex items-center space-x-1 xl:space-x-2">
+          <a href="index.html" class="nav-link px-3 py-2 rounded-lg text-sm font-medium text-gray-700 hover:text-crimson-festive hover:bg-rose-50 transition-colors">Home</a>
+          <a href="about.html" class="nav-link px-3 py-2 rounded-lg text-sm font-semibold text-crimson-festive bg-rose-50 transition-colors">About Us</a>
+          <a href="theme.html" class="nav-link px-3 py-2 rounded-lg text-sm font-medium text-gray-700 hover:text-crimson-festive hover:bg-rose-50 transition-colors">Pandal Theme</a>
+          <a href="schedule.html" class="nav-link px-3 py-2 rounded-lg text-sm font-medium text-gray-700 hover:text-crimson-festive hover:bg-rose-50 transition-colors">Puja Schedule</a>
+          <a href="gallery.html" class="nav-link px-3 py-2 rounded-lg text-sm font-medium text-gray-700 hover:text-crimson-festive hover:bg-rose-50 transition-colors">Gallery</a>
+          <a href="location.html" class="nav-link px-3 py-2 rounded-lg text-sm font-medium text-gray-700 hover:text-crimson-festive hover:bg-rose-50 transition-colors">Location</a>
+          <a href="contact.html" class="nav-link px-3 py-2 rounded-lg text-sm font-medium text-gray-700 hover:text-crimson-festive hover:bg-rose-50 transition-colors">Contact</a>
+        </nav>
+
+        <!-- CTA & Mobile Toggle -->
+        <div class="flex items-center gap-2 sm:gap-3 flex-shrink-0">
+          <a href="contact.html#donation" class="hidden sm:inline-flex items-center gap-2 px-4 py-2 rounded-full text-xs font-semibold uppercase tracking-wider bg-gradient-to-r from-crimson-festive to-amber-600 text-white shadow-glow-crimson hover:brightness-110 active:scale-95 transition-all">
+            <i data-lucide="heart" class="w-3.5 h-3.5 fill-current"></i>
+            <span>Donate / চাঁদা</span>
+          </a>
+
+          <button id="mobileMenuBtn" aria-label="Toggle Navigation" class="lg:hidden p-2 rounded-lg text-gray-700 hover:text-crimson-festive hover:bg-rose-50 focus:outline-none">
+            <i id="menuIcon" data-lucide="menu" class="w-6 h-6"></i>
+          </button>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Mobile Slide-over Drawer -->
+    <div id="mobileMenu" class="hidden lg:hidden border-t border-rose-200 bg-white/98 backdrop-blur-xl px-4 pt-3 pb-6 space-y-2 shadow-xl">
+      <a href="index.html" class="mobile-nav-link block px-3 py-2.5 rounded-lg text-base font-medium text-gray-800 hover:bg-rose-50 hover:text-crimson-festive">Home</a>
+      <a href="about.html" class="mobile-nav-link block px-3 py-2.5 rounded-lg text-base font-semibold text-crimson-festive bg-rose-50">About Us</a>
+      <a href="theme.html" class="mobile-nav-link block px-3 py-2.5 rounded-lg text-base font-medium text-gray-800 hover:bg-rose-50 hover:text-crimson-festive">Pandal & Pratima Theme</a>
+      <a href="schedule.html" class="mobile-nav-link block px-3 py-2.5 rounded-lg text-base font-medium text-gray-800 hover:bg-rose-50 hover:text-crimson-festive">Puja Schedule</a>
+      <a href="gallery.html" class="mobile-nav-link block px-3 py-2.5 rounded-lg text-base font-medium text-gray-800 hover:bg-rose-50 hover:text-crimson-festive">Photo Gallery</a>
+      <a href="location.html" class="mobile-nav-link block px-3 py-2.5 rounded-lg text-base font-medium text-gray-800 hover:bg-rose-50 hover:text-crimson-festive">Location & Directions</a>
+      <a href="contact.html" class="mobile-nav-link block px-3 py-2.5 rounded-lg text-base font-medium text-gray-800 hover:bg-rose-50 hover:text-crimson-festive">Contact & Donation</a>
+      <a href="contact.html#donation" class="mobile-nav-link block text-center px-4 py-3 rounded-xl bg-gradient-to-r from-crimson-festive to-sacred-gold text-white font-semibold shadow-glow-crimson mt-4">
+        Contribute / Online Donation (UPI)
+      </a>
+    </div>
+  </header>
+
+  <!-- PAGE HERO BANNER -->
+  <section class="bg-hero-red text-white py-14 sm:py-20 relative overflow-hidden border-b-4 border-amber-500/30 shadow-xl">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+      
+      <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-black/35 border border-amber-400/40 text-xs sm:text-sm text-amber-200 shadow-lg backdrop-blur-md mb-4">
+        <i data-lucide="award" class="w-4 h-4 text-amber-300"></i>
+        <span>Established 1969 • স্থাপিত – ১৯৬৯ সাল</span>
+      </div>
+
+      <h1 class="font-cinzel font-black text-3xl sm:text-5xl md:text-6xl text-white tracking-tight mb-3">
+        About Our <span class="text-amber-300">Legacy</span>
+      </h1>
+      <p class="font-bengali text-lg sm:text-xl text-rose-100 max-w-2xl mx-auto font-normal">
+        ঐতিহ্য, সংস্কৃতি ও মানবকল্যাণে অরংঘাটা শতদল ক্লাবের গৌরবময় পথচলা
+      </p>
+
+    </div>
+  </section>
+
+  <!-- MAIN ABOUT CONTENT -->
+  <main class="py-16 sm:py-24">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- History Narrative -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center mb-20">
+        
+        <div class="lg:col-span-7 space-y-6 text-gray-700 leading-relaxed font-normal text-base sm:text-lg">
+          <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-crimson-festive/10 border border-crimson-festive/30 text-crimson-festive text-xs font-semibold uppercase tracking-wider">
+            <i data-lucide="history" class="w-3.5 h-3.5"></i>
+            <span>52+ Years of Brotherhood</span>
+          </div>
+
+          <h2 class="font-cinzel text-3xl sm:text-4xl font-bold text-gray-950 leading-tight">
+            A Journey of Faith, Art & <span class="text-crimson-gradient">Selfless Service</span>
+          </h2>
+
+          <p>
+            Established in 1969 in the peaceful town of Aranghata within the Ranaghat subdivision of Nadia district, <strong class="text-gray-950 font-semibold">Aranghata Satadal Club</strong> (আড়ংঘাটা শতদল ক্লাব) was conceived with a heartfelt mission: to celebrate the divine spiritual grace of Mother Shyama, nurture Bengal's rich folk traditions, and serve our local community unconditionally.
+          </p>
+
+          <p>
+            What began five decades ago as an intimate neighborhood worship has blossomed into one of Nadia's premier festive destinations, welcoming over 1,00,000 visitors every autumn. Yet, amidst the glittering chandeliers and towering pandals, the club has never drifted from its foundational ethos: unconditional brotherhood and round-the-year public service.
+          </p>
+
+          <div class="p-6 rounded-2xl glass-card border-l-4 border-l-crimson-festive">
+            <h4 class="text-gray-950 font-semibold text-lg flex items-center gap-2 mb-2">
+              <i data-lucide="heart" class="w-5 h-5 text-crimson-festive"></i>
+              Our Guiding Philosophy
+            </h4>
+            <p class="text-sm text-gray-600 leading-relaxed">
+              "To unite hearts through sacred celebration, uplift every underprivileged neighbor through compassion, and preserve the artistic heritage of Bengal for future generations."
+            </p>
+          </div>
+        </div>
+
+        <!-- Official Emblem Card -->
+        <div class="lg:col-span-5 flex justify-center">
+          <div class="relative group max-w-sm w-full">
+            <div class="absolute -inset-2 rounded-3xl bg-gradient-to-r from-amber-400 via-rose-500 to-amber-500 opacity-75 blur-xl group-hover:opacity-100 transition duration-500"></div>
+            <div class="relative glass-card p-6 sm:p-8 rounded-3xl text-center border-2 border-amber-400/50 shadow-2xl">
+              <img src="assets/logo.jpg" alt="Official Emblem" class="w-48 h-48 sm:w-56 sm:h-56 mx-auto rounded-full object-cover border-4 border-amber-300 shadow-xl mb-6">
+              <h3 class="font-cinzel font-bold text-xl text-gray-950">ARANGHATA SATADAL CLUB</h3>
+              <p class="font-bengali text-sm text-crimson-festive font-bold mt-1">আড়ংঘাটা শতদল ক্লাব • স্থাপিত – ১৯৬৯</p>
+              <p class="text-xs text-gray-500 mt-2">Registration, Cultural & Social Welfare Society • Nadia, West Bengal</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Stats Grid -->
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 mb-24">
+        
+        <div class="glass-card p-6 rounded-2xl text-center group">
+          <div class="w-12 h-12 rounded-xl bg-amber-500/10 border border-amber-500/30 flex items-center justify-center mx-auto mb-3 text-sacred-amber group-hover:scale-110 transition-transform">
+            <i data-lucide="history" class="w-6 h-6"></i>
+          </div>
+          <div class="font-cinzel font-bold text-3xl sm:text-4xl text-gray-950">52+</div>
+          <div class="text-xs sm:text-sm text-gray-600 font-semibold mt-1 uppercase tracking-wider">Years of Glory</div>
+          <div class="text-xs text-crimson-festive font-bengali mt-0.5">গৌরবময় ঐতিহ্য</div>
+        </div>
+
+        <div class="glass-card p-6 rounded-2xl text-center group">
+          <div class="w-12 h-12 rounded-xl bg-crimson-festive/10 border border-crimson-festive/30 flex items-center justify-center mx-auto mb-3 text-crimson-festive group-hover:scale-110 transition-transform">
+            <i data-lucide="users" class="w-6 h-6"></i>
+          </div>
+          <div class="font-cinzel font-bold text-3xl sm:text-4xl text-gray-950">180+</div>
+          <div class="text-xs sm:text-sm text-gray-600 font-semibold mt-1 uppercase tracking-wider">Active Volunteers</div>
+          <div class="text-xs text-crimson-festive font-bengali mt-0.5">নিবেদিত প্রাণ সদস্য</div>
+        </div>
+
+        <div class="glass-card p-6 rounded-2xl text-center group">
+          <div class="w-12 h-12 rounded-xl bg-amber-500/10 border border-amber-500/30 flex items-center justify-center mx-auto mb-3 text-sacred-amber group-hover:scale-110 transition-transform">
+            <i data-lucide="footprints" class="w-6 h-6"></i>
+          </div>
+          <div class="font-cinzel font-bold text-3xl sm:text-4xl text-gray-950">100K+</div>
+          <div class="text-xs sm:text-sm text-gray-600 font-semibold mt-1 uppercase tracking-wider">Festive Footfall</div>
+          <div class="text-xs text-crimson-festive font-bengali mt-0.5">দর্শনার্থীর সমাগম</div>
+        </div>
+
+        <div class="glass-card p-6 rounded-2xl text-center group">
+          <div class="w-12 h-12 rounded-xl bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center mx-auto mb-3 text-emerald-600 group-hover:scale-110 transition-transform">
+            <i data-lucide="activity" class="w-6 h-6"></i>
+          </div>
+          <div class="font-cinzel font-bold text-3xl sm:text-4xl text-gray-950">350+</div>
+          <div class="text-xs sm:text-sm text-gray-600 font-semibold mt-1 uppercase tracking-wider">Blood Donors / Yr</div>
+          <div class="text-xs text-crimson-festive font-bengali mt-0.5">জীবনদায়ী রক্তদান</div>
+        </div>
+
+      </div>
+
+      <!-- Executive Committee Leadership -->
+      <div class="mb-24">
+        <div class="text-center max-w-3xl mx-auto mb-14">
+          <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-crimson-festive/10 border border-crimson-festive/30 text-crimson-festive text-xs font-semibold uppercase tracking-wider mb-2">
+            <i data-lucide="shield" class="w-3.5 h-3.5"></i>
+            <span>Executive Committee</span>
+          </div>
+          <h2 class="font-cinzel text-3xl sm:text-4xl font-bold text-gray-950">
+            Club Executive <span class="text-crimson-gradient">Leadership</span>
+          </h2>
+          <p class="font-bengali text-lg text-crimson-dark mt-1 font-medium">ক্লাবের পরিচালনা পরিষদ ও কার্যনির্বাহী কর্মকর্তা</p>
+        </div>
+
+        <!-- Top Officers -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+          
+          <div class="glass-card p-6 rounded-2xl border-t-4 border-t-amber-500 text-center">
+            <div class="w-14 h-14 rounded-full bg-amber-500/15 border border-amber-500/40 flex items-center justify-center mx-auto mb-4 text-sacred-amber">
+              <i data-lucide="award" class="w-7 h-7"></i>
+            </div>
+            <h3 class="text-gray-950 font-cinzel text-xl font-bold">Ashish Baran Ukil</h3>
+            <p class="text-xs text-sacred-amber font-bold uppercase tracking-wider mt-0.5">President / সভাপতি</p>
+            <p class="text-xs text-gray-600 mt-2">Guiding festival administration, governance & patron relations.</p>
+          </div>
+
+          <div class="glass-card p-6 rounded-2xl border-t-4 border-t-crimson-festive text-center">
+            <div class="w-14 h-14 rounded-full bg-crimson-festive/15 border border-crimson-festive/40 flex items-center justify-center mx-auto mb-4 text-crimson-festive">
+              <i data-lucide="users" class="w-7 h-7"></i>
+            </div>
+            <h3 class="text-gray-950 font-cinzel text-xl font-bold">Madhav Ghosh</h3>
+            <p class="text-xs text-crimson-festive font-bold uppercase tracking-wider mt-0.5">Secretary / সাধারণ সম্পাদক</p>
+            <p class="text-xs text-gray-600 mt-2">Overall puja arrangements, volunteer deployment & community relations.</p>
+          </div>
+
+          <div class="glass-card p-6 rounded-2xl border-t-4 border-t-amber-500 text-center">
+            <div class="w-14 h-14 rounded-full bg-amber-500/15 border border-amber-500/40 flex items-center justify-center mx-auto mb-4 text-sacred-amber">
+              <i data-lucide="wallet" class="w-7 h-7"></i>
+            </div>
+            <h3 class="text-gray-950 font-cinzel text-xl font-bold">Apurba Bhattacharya</h3>
+            <p class="text-xs text-sacred-amber font-bold uppercase tracking-wider mt-0.5">Cashier / কোষাধ্যক্ষ</p>
+            <p class="text-xs text-gray-600 mt-2">Accounts, donations, financial transparency & money receipts.</p>
+          </div>
+
+        </div>
+
+        <!-- Vice Presidents & Joint Secretaries -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          
+          <div class="glass-card p-6 rounded-2xl border-l-4 border-l-amber-500">
+            <div class="flex items-center gap-3 mb-4">
+              <div class="p-2.5 rounded-xl bg-amber-500/15 text-sacred-amber">
+                <i data-lucide="shield-check" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <h4 class="text-gray-950 font-semibold text-lg">Vice-Presidents</h4>
+                <span class="text-xs text-sacred-amber font-bengali font-bold">সহ-সভাপতিবৃন্দ</span>
+              </div>
+            </div>
+            <div class="grid grid-cols-2 gap-3 pt-2 border-t border-rose-100">
+              <div class="bg-rose-50/70 p-3.5 rounded-xl border border-rose-200/70">
+                <div class="text-gray-950 font-cinzel font-bold text-base">Arjun Sarkar</div>
+                <div class="text-xs text-gray-600 font-bengali mt-0.5">অর্জুন সরকার</div>
+              </div>
+              <div class="bg-rose-50/70 p-3.5 rounded-xl border border-rose-200/70">
+                <div class="text-gray-950 font-cinzel font-bold text-base">Swapan Biswas</div>
+                <div class="text-xs text-gray-600 font-bengali mt-0.5">স্বপন বিশ্বাস</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="glass-card p-6 rounded-2xl border-l-4 border-l-crimson-festive">
+            <div class="flex items-center gap-3 mb-4">
+              <div class="p-2.5 rounded-xl bg-crimson-festive/15 text-crimson-festive">
+                <i data-lucide="award" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <h4 class="text-gray-950 font-semibold text-lg">Joint Secretaries</h4>
+                <span class="text-xs text-crimson-festive font-bengali font-bold">যুগ্ম সম্পাদকবৃন্দ</span>
+              </div>
+            </div>
+            <div class="grid grid-cols-2 gap-3 pt-2 border-t border-rose-100">
+              <div class="bg-rose-50/70 p-3.5 rounded-xl border border-rose-200/70">
+                <div class="text-gray-950 font-cinzel font-bold text-base">Sudeb Koley</div>
+                <div class="text-xs text-gray-600 font-bengali mt-0.5">সুদেব কোলে</div>
+              </div>
+              <div class="bg-rose-50/70 p-3.5 rounded-xl border border-rose-200/70">
+                <div class="text-gray-950 font-cinzel font-bold text-base">Sudipta Dey</div>
+                <div class="text-xs text-gray-600 font-bengali mt-0.5">সুদীপ্ত দে</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Social Responsibilities -->
+      <div class="p-8 sm:p-12 rounded-3xl bg-section-pattern border border-rose-200/80">
+        <div class="max-w-3xl mb-8">
+          <span class="text-xs font-semibold uppercase tracking-wider text-crimson-festive">Community Outreach</span>
+          <h3 class="font-cinzel text-2xl sm:text-3xl font-bold text-gray-950 mt-1">Year-Round Social Seva</h3>
+          <p class="text-sm text-gray-600 mt-2">Serving humanity is our highest devotion to the Mother.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div class="glass-card p-6 rounded-2xl">
+            <div class="w-10 h-10 rounded-xl bg-crimson-festive/10 text-crimson-festive flex items-center justify-center mb-3">
+              <i data-lucide="droplet" class="w-5 h-5"></i>
+            </div>
+            <h4 class="font-bold text-gray-950 text-base">Annual Mega Blood Drive</h4>
+            <p class="text-xs text-gray-600 mt-2 leading-relaxed">
+              Organized in coordination with Ranaghat Sub-Divisional Hospital Blood Bank, collecting over 350+ units every year.
+            </p>
+          </div>
+
+          <div class="glass-card p-6 rounded-2xl">
+            <div class="w-10 h-10 rounded-xl bg-amber-500/10 text-sacred-amber flex items-center justify-center mb-3">
+              <i data-lucide="graduation-cap" class="w-5 h-5"></i>
+            </div>
+            <h4 class="font-bold text-gray-950 text-base">Merit Student Scholarships</h4>
+            <p class="text-xs text-gray-600 mt-2 leading-relaxed">
+              Distributing books, kits, and annual stipends to deserving students appearing for Madhyamik and Higher Secondary exams.
+            </p>
+          </div>
+
+          <div class="glass-card p-6 rounded-2xl">
+            <div class="w-10 h-10 rounded-xl bg-emerald-500/10 text-emerald-600 flex items-center justify-center mb-3">
+              <i data-lucide="heart-handshake" class="w-5 h-5"></i>
+            </div>
+            <h4 class="font-bold text-gray-950 text-base">Winter Blanket & Health Relief</h4>
+            <p class="text-xs text-gray-600 mt-2 leading-relaxed">
+              Providing free eye screening, spectacles, diagnostic checkups, and thousands of winter blankets to rural elders.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-rose-50/90 border-t border-rose-200 py-12 relative z-10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="flex flex-col md:flex-row items-center justify-between gap-6 pb-8 border-b border-rose-200/80 text-center md:text-left">
+        <div class="flex items-center gap-3">
+          <div class="w-12 h-12 rounded-full overflow-hidden border-2 border-crimson-festive/40 shadow-sm flex-shrink-0 bg-white">
+            <img src="assets/logo.jpg" alt="Aranghata Satadal Club Logo" class="w-full h-full rounded-full object-cover">
+          </div>
+          <div>
+            <h3 class="font-cinzel font-bold text-gray-950 tracking-wide">ARANGHATA SATADAL CLUB</h3>
+            <span class="text-xs text-crimson-festive font-bengali font-semibold">আড়ংঘাটা শতদল ক্লাব • নদীয়া, পশ্চিমবঙ্গ</span>
+          </div>
+        </div>
+
+        <div class="flex flex-wrap items-center justify-center gap-6 text-xs text-gray-600 font-semibold">
+          <a href="index.html" class="hover:text-crimson-festive transition-colors">Home</a>
+          <a href="about.html" class="text-crimson-festive transition-colors">About Us</a>
+          <a href="theme.html" class="hover:text-crimson-festive transition-colors">Pandal Theme</a>
+          <a href="schedule.html" class="hover:text-crimson-festive transition-colors">Puja Schedule</a>
+          <a href="gallery.html" class="hover:text-crimson-festive transition-colors">Gallery</a>
+          <a href="location.html" class="hover:text-crimson-festive transition-colors">Location</a>
+          <a href="contact.html" class="hover:text-crimson-festive transition-colors">Contact & Donation</a>
+        </div>
+      </div>
+
+      <div class="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-gray-500 font-medium">
+        <p>
+          &copy; 2026 <strong class="text-gray-900 font-semibold">Aranghata Satadal Club</strong>. All rights reserved.
+        </p>
+        <div class="flex flex-col sm:flex-row items-center gap-2 sm:gap-4 text-gray-600">
+          <p class="flex items-center gap-1.5">
+            <span>Crafted with devotion for Maa Shyama</span>
+            <i data-lucide="sparkles" class="w-3.5 h-3.5 text-crimson-festive"></i>
+            <span class="font-semibold text-crimson-dark">Joy Maa Kali</span>
+          </p>
+          <span class="hidden sm:inline text-gray-300">•</span>
+          <p class="text-xs">
+            Organised by <a href="https://www.subhaartha.com" target="_blank" rel="noopener noreferrer" class="text-crimson-festive hover:underline font-semibold">SUBHA-ARTHA</a>
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- SCRIPT -->
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      if (window.lucide) lucide.createIcons();
+    });
+
+    const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+    mobileMenuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+      if (window.lucide) lucide.createIcons();
+    });
+
+    // Dhak Web Audio
+    let audioCtx = null, isPlayingDhak = false, dhakInterval = null;
+    function playDhakDrum(time, isAccent = false) {
+      if (!audioCtx) return;
+      const osc = audioCtx.createOscillator(), gain = audioCtx.createGain();
+      osc.type = isAccent ? 'triangle' : 'sine';
+      osc.frequency.setValueAtTime(isAccent ? 175 : 120, time);
+      osc.frequency.exponentialRampToValueAtTime(45, time + 0.18);
+      gain.gain.setValueAtTime(isAccent ? 0.8 : 0.5, time);
+      gain.gain.exponentialRampToValueAtTime(0.001, time + 0.22);
+      osc.connect(gain); gain.connect(audioCtx.destination);
+      osc.start(time); osc.stop(time + 0.25);
+    }
+    function playKashiCymbal(time) {
+      if (!audioCtx) return;
+      const osc = audioCtx.createOscillator(), gain = audioCtx.createGain();
+      osc.type = 'triangle'; osc.frequency.setValueAtTime(1420, time);
+      gain.gain.setValueAtTime(0.2, time);
+      gain.gain.exponentialRampToValueAtTime(0.001, time + 0.4);
+      osc.connect(gain); gain.connect(audioCtx.destination);
+      osc.start(time); osc.stop(time + 0.45);
+    }
+    const dhakAudioBtn = document.getElementById('dhakAudioBtn');
+    const audioStatusText = document.getElementById('audioStatusText');
+    const audioPing = document.getElementById('audioPing');
+    const audioDot = document.getElementById('audioDot');
+    dhakAudioBtn.addEventListener('click', () => {
+      if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+      if (audioCtx.state === 'suspended') audioCtx.resume();
+      if (isPlayingDhak) {
+        clearInterval(dhakInterval); isPlayingDhak = false;
+        audioStatusText.innerText = "Play Festive Dhak";
+        audioPing.classList.add('hidden');
+        audioDot.classList.add('bg-crimson-festive');
+      } else {
+        isPlayingDhak = true; audioStatusText.innerText = "Playing Sacred Dhak";
+        audioPing.classList.remove('hidden');
+        let step = 0;
+        dhakInterval = setInterval(() => {
+          const now = audioCtx.currentTime;
+          if (step % 4 === 0) { playDhakDrum(now, true); playKashiCymbal(now); }
+          else if (step % 2 === 0) { playDhakDrum(now, false); }
+          else { playDhakDrum(now + 0.04, false); }
+          step = (step + 1) % 8;
+        }, 220);
+      }
+    });
+  </script>
+</body>
+</html>

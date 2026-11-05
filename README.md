@@ -1,4 +1,4 @@
-# Aranghata Satadal Club (অরংঘাটা শতদল ক্লাব)
+# Aranghata Satadal Club (আড়ংঘাটা শতদল ক্লাব)
 Official website and digital portal for **Shree Shree Shyama (Kali) Puja 2026** at Aranghata, Nadia, West Bengal.
 
 🌐 **Domain**: [aranghatasatadalclub.com](https://aranghatasatadalclub.com)

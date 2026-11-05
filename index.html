@@ -713,9 +713,10 @@
 
         <!-- Tab Selectors -->
         <div class="flex flex-wrap items-center justify-center gap-2 sm:gap-3 mb-10">
-          <button onclick="switchDay('day1')" id="tab-day1" class="schedule-tab active px-5 py-2.5 rounded-full text-xs sm:text-sm font-semibold transition-all bg-gradient-to-r from-crimson-festive to-amber-600 text-white shadow-glow-crimson">
-            Day 1: Inauguration & Amavasya
-          </button>
+          <a href="day1.html" id="tab-day1" class="schedule-tab active px-5 py-2.5 rounded-full text-xs sm:text-sm font-semibold transition-all bg-gradient-to-r from-crimson-festive to-amber-600 text-white shadow-glow-crimson inline-flex items-center gap-1.5 hover:brightness-105">
+            <span>Day 1: Inauguration & Amavasya</span>
+            <span class="text-[10px] bg-white/25 px-1.5 py-0.5 rounded font-bengali font-semibold">বাংলায় দেখুন →</span>
+          </a>
           <button onclick="switchDay('day2')" id="tab-day2" class="schedule-tab px-5 py-2.5 rounded-full text-xs sm:text-sm font-semibold transition-all bg-white border border-rose-200/80 text-gray-700 hover:text-crimson-festive hover:border-crimson-festive/40 shadow-sm">
             Day 2: Cultural Gala Night
           </button>
@@ -732,6 +733,29 @@
           
           <!-- DAY 1 CONTENT -->
           <div id="content-day1" class="schedule-content space-y-6">
+            
+            <!-- Special Bengali Day 1 Announcement Banner -->
+            <a href="day1.html" class="flex flex-col sm:flex-row sm:items-center justify-between p-4 sm:p-5 rounded-2xl bg-gradient-to-r from-rose-50 via-amber-50 to-rose-50 border-2 border-crimson-festive/30 hover:border-crimson-festive hover:shadow-lg transition-all group font-bengali">
+              <div class="flex items-center gap-3">
+                <div class="w-12 h-12 rounded-2xl bg-gradient-to-tr from-crimson-festive to-amber-500 text-white flex items-center justify-center flex-shrink-0 shadow-md group-hover:scale-110 transition-transform">
+                  <i data-lucide="file-text" class="w-6 h-6"></i>
+                </div>
+                <div>
+                  <div class="text-base sm:text-lg font-bold text-gray-950 flex items-center gap-2">
+                    <span>প্রথম দিবসের সম্পূর্ণ বাংলা অনুষ্ঠান সূচী ও আমন্ত্রণ পত্র</span>
+                    <span class="text-[11px] bg-crimson-festive text-white px-2 py-0.5 rounded-full font-sans uppercase tracking-wider font-semibold">Special Page</span>
+                  </div>
+                  <p class="text-xs sm:text-sm text-crimson-dark mt-0.5 font-medium">
+                    মাননীয় মুখ্যমন্ত্রী শ্রীযুক্ত শুভেন্দু অধিকারীর শুভ উদ্বোধন, বিশিষ্ট অতিথিবৃন্দের তালিকা ও পুঙ্খানুপুঙ্খ বাংলা নির্ঘণ্ট
+                  </p>
+                </div>
+              </div>
+              <div class="mt-3 sm:mt-0 inline-flex items-center gap-1.5 px-4 py-2 rounded-full bg-crimson-festive text-white text-xs font-bold font-sans uppercase tracking-wider group-hover:bg-crimson-dark transition-colors flex-shrink-0 shadow-sm">
+                <span>View Bengali Page</span>
+                <i data-lucide="arrow-right" class="w-4 h-4 group-hover:translate-x-1 transition-transform"></i>
+              </div>
+            </a>
+
             <div class="flex flex-col sm:flex-row sm:items-center justify-between pb-4 border-b border-rose-100 gap-2">
               <div>
                 <h3 class="font-cinzel text-2xl font-bold text-gray-950">Day 1: Grand Inauguration & Maha Amavasya Puja</h3>

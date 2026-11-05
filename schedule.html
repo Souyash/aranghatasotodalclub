@@ -195,11 +195,11 @@
           <span>Day 1: Inauguration & Amavasya</span>
           <span class="text-[10px] bg-white/25 px-1.5 py-0.5 rounded font-bengali font-semibold">বাংলায় দেখুন →</span>
         </a>
-        <button onclick="switchDay('day2')" id="tab-day2" class="schedule-tab px-5 py-2.5 rounded-full text-xs sm:text-sm font-semibold transition-all bg-white border border-rose-200/80 text-gray-700 hover:text-crimson-festive">
-          Day 2: Cultural Gala Night
+        <button onclick="switchDay('day2')" id="tab-day2" class="schedule-tab px-5 py-2.5 rounded-full text-xs sm:text-sm font-semibold transition-all bg-white border border-rose-200/80 text-gray-700 hover:text-crimson-festive inline-flex items-center gap-1.5">
+          <span>Day 2: অনন্যা চক্রবর্ত্তী (Live Concert)</span>
         </button>
-        <button onclick="switchDay('day3')" id="tab-day3" class="schedule-tab px-5 py-2.5 rounded-full text-xs sm:text-sm font-semibold transition-all bg-white border border-rose-200/80 text-gray-700 hover:text-crimson-festive">
-          Day 3: Social Camp & Mahaprasad
+        <button onclick="switchDay('day3')" id="tab-day3" class="schedule-tab px-5 py-2.5 rounded-full text-xs sm:text-sm font-semibold transition-all bg-white border border-rose-200/80 text-gray-700 hover:text-crimson-festive inline-flex items-center gap-1.5">
+          <span>Day 3: বিনোদ রাঠোর (Bollywood Gala)</span>
         </button>
         <button onclick="switchDay('day4')" id="tab-day4" class="schedule-tab px-5 py-2.5 rounded-full text-xs sm:text-sm font-semibold transition-all bg-white border border-rose-200/80 text-gray-700 hover:text-crimson-festive">
           Day 4: Shobhayatra & Immersion
@@ -279,34 +279,78 @@
         <div id="content-day2" class="schedule-content hidden space-y-6">
           <div class="flex flex-col sm:flex-row sm:items-center justify-between pb-4 border-b border-rose-100 gap-2">
             <div>
-              <h3 class="font-cinzel text-2xl font-bold text-gray-950">Day 2: Cultural Gala & Drama Evening</h3>
-              <span class="text-crimson-festive text-sm font-bengali font-semibold">সাংস্কৃতিক মহোৎসব • বাউল গান ও নাট্য মঞ্চায়ন</span>
+              <h3 class="font-cinzel text-2xl font-bold text-gray-950">Day 2: Cultural Gala & Star Musical Night</h3>
+              <span class="text-crimson-festive text-sm font-bengali font-semibold">৭ই নভেম্বর ২০২৬, শনিবার • সান্ধ্যকালীন বিচিত্রানুষ্ঠান অনন্যা চক্রবর্ত্তী</span>
             </div>
-            <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-amber-500/10 text-sacred-amber border border-amber-500/20 text-xs font-mono font-semibold">
-              <i data-lucide="music" class="w-3.5 h-3.5"></i> All Evening
+            <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-amber-50 text-sacred-amber border border-amber-300/60 text-xs font-mono font-medium">
+              <i data-lucide="music" class="w-3.5 h-3.5"></i> Saturday Evening Gala
             </span>
           </div>
 
-          <div class="relative border-l-2 border-rose-200 pl-6 ml-2 space-y-8">
+          <!-- STAR PERFORMER SPOTLIGHT CARD: ANANYA CHAKRABORTY -->
+          <div class="p-5 sm:p-6 rounded-2xl bg-gradient-to-br from-amber-50 via-rose-50/50 to-white border-2 border-amber-400/60 shadow-md space-y-4 font-bengali">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-rose-200/80 pb-3">
+              <div class="flex items-center gap-3">
+                <div class="w-12 h-12 rounded-2xl bg-gradient-to-tr from-sacred-gold to-crimson-festive text-white flex items-center justify-center font-bold text-xl shadow-md flex-shrink-0">
+                  <i data-lucide="mic-2" class="w-6 h-6"></i>
+                </div>
+                <div>
+                  <span class="text-xs font-bold uppercase tracking-wider text-crimson-festive bg-rose-100/80 px-2.5 py-0.5 rounded-full inline-block font-sans">
+                    Star Musical Night • শনিবার সন্ধ্যা
+                  </span>
+                  <h4 class="text-xl sm:text-2xl font-bold text-gray-950 leading-tight mt-0.5">
+                    অনন্যা চক্রবর্ত্তী (Ananya Chakraborty)
+                  </h4>
+                  <p class="text-xs sm:text-sm font-semibold text-sacred-amber">
+                    সারেগামাপা খ্যাত জনপ্রিয় সঙ্গীতশিল্পী • বাউল, সুফি ও লোক-ফিউশন সম্রাজ্ঞী
+                  </p>
+                </div>
+              </div>
+              <div class="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-white border border-rose-200 text-xs font-bold text-crimson-dark font-mono shadow-sm flex-shrink-0">
+                <i data-lucide="clock" class="w-3.5 h-3.5 text-crimson-festive"></i>
+                <span>০৭:৩০ অপরাহ্ন থেকে শুরু</span>
+              </div>
+            </div>
+
+            <!-- Bengali & English Explanation -->
+            <div class="space-y-2 text-sm sm:text-base text-gray-800 leading-relaxed">
+              <p>
+                <strong>শিল্পী পরিচিতি ও সঙ্গীত বিবরণী:</strong> জি বাংলা <em>'সারেগামাপা'</em> (Zee Bangla Sa Re Ga Ma Pa) মঞ্চ কাঁপানো অনন্য সুরের অধিকারিণী, বাংলার তরুণ প্রজন্মের অন্যতম শীর্ষস্থানীয় লোকসঙ্গীত শিল্পী <strong>অনন্যা চক্রবর্ত্তী</strong> দ্বিতীয় দিনের সন্ধ্যায় তাঁর সুরেলা গানের ডালি নিয়ে আড়ংঘাটা শতদল ক্লাবের মুক্তমঞ্চ মাতাবেন।
+              </p>
+              <p class="text-xs sm:text-sm text-gray-700">
+                তাঁর হাতে একতারা, দোতারা এবং মাটির মেঠো সুরের সঙ্গে আধুনিক ফিউশনের অপূর্ব মেলবন্ধনে পরিবেশিত হবে চিরন্তন লালনগীতি, বাউল গান, ভাটিয়ালি ও ভক্তিমূলক শ্যামা সঙ্গীত। তাঁর সুরেলা মোহময়ী কণ্ঠ শতদল ক্লাবের উৎসব প্রাঙ্গণকে সঙ্গীতপ্রেমীদের এক মিলনমেলায় পরিণত করবে।
+              </p>
+            </div>
+
+            <!-- Tags -->
+            <div class="flex flex-wrap items-center gap-2 pt-1 text-xs">
+              <span class="px-2.5 py-1 rounded-lg bg-white border border-rose-200 font-semibold text-gray-700">বাউল ও লোকগীতি (Baul &amp; Folk)</span>
+              <span class="px-2.5 py-1 rounded-lg bg-white border border-rose-200 font-semibold text-gray-700">লালন সুর ও সুফি কালাম</span>
+              <span class="px-2.5 py-1 rounded-lg bg-white border border-rose-200 font-semibold text-gray-700">লাইভ বাদ্যযন্ত্র ও ফিউশন</span>
+              <span class="px-2.5 py-1 rounded-lg bg-rose-100 text-crimson-dark font-bold font-sans">Zee Bangla Sa Re Ga Ma Pa</span>
+            </div>
+          </div>
+
+          <div class="relative border-l-2 border-rose-200 pl-6 ml-2 space-y-6">
             <div class="relative">
               <div class="absolute -left-[31px] top-1 w-4 h-4 rounded-full bg-amber-500 border-2 border-white"></div>
               <div class="text-xs font-mono text-sacred-amber font-bold">10:00 AM - 01:00 PM</div>
-              <h4 class="text-gray-950 font-bold text-lg mt-0.5">Children's Sit-and-Draw & Recitation Competition</h4>
-              <p class="text-sm text-gray-600 mt-1">Open competition for school students across Nadia with trophies and certificates awarded.</p>
+              <h4 class="text-gray-950 font-bold text-lg mt-0.5">Children's Sit-and-Draw &amp; Recitation Competition</h4>
+              <p class="text-sm text-gray-600 mt-1">অঙ্কন ও আবৃত্তি প্রতিযোগিতা — Open competition for school students across Nadia with trophies and certificates awarded.</p>
             </div>
 
             <div class="relative">
-              <div class="absolute -left-[31px] top-1 w-4 h-4 rounded-full bg-crimson-festive border-2 border-white"></div>
-              <div class="text-xs font-mono text-crimson-festive font-bold">06:30 PM - 08:30 PM</div>
-              <h4 class="text-gray-950 font-bold text-lg mt-0.5">Shyama Sangeet & Folk Baul Sandhya</h4>
-              <p class="text-sm text-gray-600 mt-1">Eminent Bengal folk vocalists performing soulful devotional songs and Ektara folk tunes.</p>
+              <div class="absolute -left-[31px] top-1 w-4 h-4 rounded-full bg-crimson-festive border-2 border-white shadow-glow-crimson"></div>
+              <div class="text-xs font-mono text-crimson-festive font-bold">06:00 PM - 07:15 PM</div>
+              <h4 class="text-gray-950 font-bold text-lg mt-0.5">Folk Dance &amp; Regional Cultural Invocations</h4>
+              <p class="text-sm text-gray-600 mt-1">Classical Kathak and folk dance performances by local youth cultural troupes setting the stage for the concert.</p>
             </div>
 
             <div class="relative">
-              <div class="absolute -left-[31px] top-1 w-4 h-4 rounded-full bg-amber-500 border-2 border-white"></div>
-              <div class="text-xs font-mono text-sacred-amber font-bold">09:00 PM - 11:30 PM</div>
-              <h4 class="text-gray-950 font-bold text-lg mt-0.5">Bengali Theatrical Drama Staging</h4>
-              <p class="text-sm text-gray-600 mt-1">Staged by the Satadal Drama Troupe with vibrant stage setting and live background scoring.</p>
+              <div class="absolute -left-[31px] top-1 w-4 h-4 rounded-full bg-amber-500 border-2 border-white shadow-glow-gold"></div>
+              <div class="text-xs font-mono text-sacred-amber font-bold">07:30 PM Onwards (Grand Gala Night)</div>
+              <h4 class="text-gray-950 font-bold text-lg mt-0.5">সান্ধ্যকালীন বিচিত্রানুষ্ঠান — অনন্যা চক্রবর্ত্তী (Live in Concert)</h4>
+              <p class="text-sm text-gray-600 mt-1">The main celebrity musical concert of Day 2 featuring Ananya Chakraborty with full live instrumental accompaniment.</p>
             </div>
           </div>
         </div>
@@ -315,34 +359,79 @@
         <div id="content-day3" class="schedule-content hidden space-y-6">
           <div class="flex flex-col sm:flex-row sm:items-center justify-between pb-4 border-b border-rose-100 gap-2">
             <div>
-              <h3 class="font-cinzel text-2xl font-bold text-gray-950">Day 3: Social Outreach & Community Feast</h3>
-              <span class="text-crimson-festive text-sm font-bengali font-semibold">জনকল্যাণ শিবির, রক্তদান ও সর্বজনীন মহাপ্রসাদ বিতরণ</span>
+              <h3 class="font-cinzel text-2xl font-bold text-gray-950">Day 3: Seva, Mahaprasad &amp; Bollywood Gala Night</h3>
+              <span class="text-crimson-festive text-sm font-bengali font-semibold">৮ই নভেম্বর ২০২৬, রবিবার • রক্তদান শিবির, মহাপ্রসাদ ও বিনোদ রাঠোর নাইট</span>
             </div>
-            <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-500/10 text-emerald-600 border border-emerald-500/20 text-xs font-mono font-semibold">
-              <i data-lucide="heart" class="w-3.5 h-3.5"></i> All Day
+            <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-purple-50 text-purple-700 border border-purple-200 text-xs font-mono font-medium">
+              <i data-lucide="sparkles" class="w-3.5 h-3.5"></i> Sunday Mega Gala
             </span>
           </div>
 
-          <div class="relative border-l-2 border-rose-200 pl-6 ml-2 space-y-8">
+          <!-- STAR PERFORMER SPOTLIGHT CARD: VINOD RATHOD -->
+          <div class="p-5 sm:p-6 rounded-2xl bg-gradient-to-br from-purple-50 via-rose-50/50 to-white border-2 border-purple-300 shadow-md space-y-4 font-bengali">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-rose-200/80 pb-3">
+              <div class="flex items-center gap-3">
+                <div class="w-12 h-12 rounded-2xl bg-gradient-to-tr from-purple-600 to-crimson-festive text-white flex items-center justify-center font-bold text-xl shadow-md flex-shrink-0">
+                  <i data-lucide="music" class="w-6 h-6"></i>
+                </div>
+                <div>
+                  <span class="text-xs font-bold uppercase tracking-wider text-purple-700 bg-purple-100 px-2.5 py-0.5 rounded-full inline-block font-sans">
+                    Bollywood Celebrity Night • রবিবার সন্ধ্যা
+                  </span>
+                  <h4 class="text-xl sm:text-2xl font-bold text-gray-950 leading-tight mt-0.5">
+                    বিনোদ রাঠোর (Vinod Rathod)
+                  </h4>
+                  <p class="text-xs sm:text-sm font-semibold text-purple-900">
+                    কিংবদন্তি বলিউড ও বাংলা প্লেব্যাক গায়ক • কালজয়ী রোমান্টিক ও চার্টবাস্টার গানের স্রষ্টা
+                  </p>
+                </div>
+              </div>
+              <div class="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-white border border-purple-200 text-xs font-bold text-purple-950 font-mono shadow-sm flex-shrink-0">
+                <i data-lucide="clock" class="w-3.5 h-3.5 text-purple-600"></i>
+                <span>০৭:৩০ অপরাহ্ন থেকে শুরু</span>
+              </div>
+            </div>
+
+            <!-- Bengali & English Explanation -->
+            <div class="space-y-2 text-sm sm:text-base text-gray-800 leading-relaxed">
+              <p>
+                <strong>শিল্পী পরিচিতি ও সঙ্গীত বিবরণী:</strong> ভারতীয় সিনেমা ও বাংলা সঙ্গীতের অন্যতম জনপ্রিয় ও বহু পুরস্কারপ্রাপ্ত কিংবদন্তি প্লেব্যাক গায়ক <strong>বিনোদ রাঠোর</strong> শতদল ক্লাবের ৫৭তম বর্ষের তৃতীয় দিবস (রবিবার)-এর সান্ধ্যকালীন বিচিত্রানুষ্ঠানে প্রধান আকর্ষণ হিসেবে সরাসরি উপস্থিত থাকবেন।
+              </p>
+              <p class="text-xs sm:text-sm text-gray-700">
+                পণ্ডিত চতুর্ভুজ রাঠোরের যোগ্য উত্তরসূরি হিসেবে শাস্ত্রীয় সঙ্গীতে ঋদ্ধ এই শিল্পী ভারতীয় চলচ্চিত্রে উপহার দিয়েছেন শত শত অবিস্মরণীয় গান — <em>"বাজিগর ও বাজিগর"</em>, <em>"ইয়ে কালি কালি আঁখেঁ"</em>, <em>"নায়ক নেহি খলনায়ক হ্যায় তু"</em>, <em>"ছুপানা ভি নেহি আতা"</em>, <em>"এম বোলে তো"</em>, <em>"চনে কে খেত মেঁ"</em> এবং বাংলা পুজোর গান। তাঁর মন মাতানো সুর ও ভরপুর প্রাণোচ্ছল পরিবেশনায় রবিবার সন্ধ্যায় আড়ংঘাটার উৎসব প্রাঙ্গণ এক অবিস্মরণীয় সঙ্গীত উৎসবে রূপ নেবে।
+              </p>
+            </div>
+
+            <!-- Hit Songs Tags -->
+            <div class="flex flex-wrap items-center gap-2 pt-1 text-xs font-sans">
+              <span class="px-2.5 py-1 rounded-lg bg-white border border-purple-200 font-semibold text-gray-700">Baazigar O Baazigar</span>
+              <span class="px-2.5 py-1 rounded-lg bg-white border border-purple-200 font-semibold text-gray-700">Yeh Kaali Kaali Aankhen</span>
+              <span class="px-2.5 py-1 rounded-lg bg-white border border-purple-200 font-semibold text-gray-700">Nayak Nahi Khalnayak</span>
+              <span class="px-2.5 py-1 rounded-lg bg-white border border-purple-200 font-semibold text-gray-700">Chupana Bhi Nahi Aata</span>
+              <span class="px-2.5 py-1 rounded-lg bg-purple-100 text-purple-900 font-bold">Mega Bollywood Live Orchestra</span>
+            </div>
+          </div>
+
+          <div class="relative border-l-2 border-rose-200 pl-6 ml-2 space-y-6">
             <div class="relative">
               <div class="absolute -left-[31px] top-1 w-4 h-4 rounded-full bg-emerald-500 border-2 border-white"></div>
               <div class="text-xs font-mono text-emerald-600 font-bold">09:00 AM - 02:00 PM</div>
               <h4 class="text-gray-950 font-bold text-lg mt-0.5">38th Voluntary Mega Blood Donation Camp</h4>
-              <p class="text-sm text-gray-600 mt-1">Over 350+ donors expected in association with Ranaghat Sub-Divisional Blood Bank.</p>
+              <p class="text-sm text-gray-600 mt-1">৩৮তম স্বেচ্ছায় রক্তদান শিবির — Over 350+ donors expected in association with Ranaghat Sub-Divisional Blood Bank.</p>
             </div>
 
             <div class="relative">
               <div class="absolute -left-[31px] top-1 w-4 h-4 rounded-full bg-amber-500 border-2 border-white"></div>
               <div class="text-xs font-mono text-sacred-amber font-bold">12:30 PM - 04:30 PM</div>
               <h4 class="text-gray-950 font-bold text-lg mt-0.5">Grand Community Feast (Mahaprasad Vitran)</h4>
-              <p class="text-sm text-gray-600 mt-1">Sanctified Khichuri, Labra, Chatni, and Payesh served to thousands of visiting devotees.</p>
+              <p class="text-sm text-gray-600 mt-1">সর্বজনীন মহাপ্রসাদ বিতরণ — Sanctified Khichuri, Labra, Chatni, and Payesh served to thousands of visiting devotees.</p>
             </div>
 
             <div class="relative">
-              <div class="absolute -left-[31px] top-1 w-4 h-4 rounded-full bg-crimson-festive border-2 border-white"></div>
-              <div class="text-xs font-mono text-crimson-festive font-bold">07:00 PM - 10:00 PM</div>
-              <h4 class="text-gray-950 font-bold text-lg mt-0.5">Felicitation of Meritorious Students & Elders</h4>
-              <p class="text-sm text-gray-600 mt-1">Distributing educational awards and honoring senior citizens for community service.</p>
+              <div class="absolute -left-[31px] top-1 w-4 h-4 rounded-full bg-purple-600 border-2 border-white shadow-glow-crimson"></div>
+              <div class="text-xs font-mono text-purple-700 font-bold">07:30 PM Onwards (Mega Celebrity Concert)</div>
+              <h4 class="text-gray-950 font-bold text-lg mt-0.5">সান্ধ্যকালীন বিচিত্রানুষ্ঠান — বিনোদ রাঠোর (Live Bollywood Concert)</h4>
+              <p class="text-sm text-gray-600 mt-1">The flagship cultural spectacle of the 57th year featuring legendary Bollywood playback maestro Vinod Rathod &amp; live band.</p>
             </div>
           </div>
         </div>

@@ -322,80 +322,179 @@
               </p>
             </div>
 
-            <!-- Dignitary Card (Inauguration with Suvendu Adhikary Photo) -->
-            <div class="p-5 sm:p-6 rounded-2xl bg-gradient-to-r from-crimson-festive/10 via-rose-50 to-amber-50 border-2 border-crimson-festive/30 shadow-md flex flex-col sm:flex-row items-center sm:items-start gap-5">
-              <div class="relative shrink-0 text-center">
-                <div class="w-24 h-24 sm:w-28 sm:h-28 rounded-2xl overflow-hidden border-2 border-amber-400 shadow-lg bg-slate-900 group">
-                  <img src="assets/suvendu-adhikari.jpg" alt="মাননীয় মুখ্যমন্ত্রী শ্রীযুক্ত শুভেন্দু অধিকারী" class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-300">
+            <!-- Dignitary Card (Inauguration with Suvendu Adhikary Full Official Poster) -->
+            <div class="glass-card p-6 sm:p-8 rounded-3xl bg-gradient-to-br from-amber-50/70 via-white to-rose-50/60 border-2 border-amber-300 shadow-xl flex flex-col md:flex-row items-center md:items-start gap-6 lg:gap-8">
+              
+              <!-- Full Uncropped Poster -->
+              <div class="relative w-full max-w-[280px] sm:max-w-[300px] md:w-64 lg:w-72 shrink-0 group cursor-pointer" onclick="openDirectImage('assets/suvendu-adhikari-poster.jpg', 'মাননীয় শুভেন্দু অধিকারী', 'Chief Guest & Inaugurator • আড়ংঘাটা শতদল ক্লাব ৫৭তম শ্যামাপূজা')">
+                <div class="relative aspect-[2/3] w-full rounded-2xl overflow-hidden border-2 border-amber-400 shadow-2xl bg-slate-950">
+                  <img src="assets/suvendu-adhikari-poster.jpg" 
+                       alt="মাননীয় শুভেন্দু অধিকারী - Chief Guest & Inaugurator of Aranghata Satadal Club" 
+                       class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500">
+                  <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end justify-center p-3">
+                    <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-crimson-festive text-white text-xs font-bold shadow-lg">
+                      <i data-lucide="maximize-2" class="w-3.5 h-3.5"></i>
+                      <span>পোস্টারটি বড় করে দেখুন</span>
+                    </span>
+                  </div>
                 </div>
-                <span class="inline-block mt-2 px-2.5 py-0.5 rounded-full bg-crimson-festive text-white text-[10px] font-bold uppercase tracking-wider shadow">
-                  প্রধান উদ্বোধক
-                </span>
+                <div class="mt-2.5 text-center">
+                  <span class="inline-block px-3 py-1 rounded-full bg-crimson-festive text-white text-[11px] font-bold uppercase tracking-wider shadow">
+                    প্রধান উদ্বোধক ও প্রধান অতিথি
+                  </span>
+                </div>
               </div>
-              <div class="space-y-1.5 text-center sm:text-left flex-1">
-                <div class="inline-flex items-center gap-1.5 text-crimson-festive font-bold text-xs uppercase tracking-wider">
+
+              <!-- Dignitary Information & Inauguration Details -->
+              <div class="space-y-4 text-center md:text-left flex-1 font-bengali">
+                <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-500/15 border border-amber-500/30 text-sacred-amber font-bold text-xs uppercase tracking-wider">
                   <i data-lucide="flame" class="w-4 h-4 text-amber-500 fill-amber-500"></i>
                   <span>উদ্বোধক ও প্রদীপ প্রজ্জ্বলক</span>
                 </div>
-                <h3 class="text-xl sm:text-2xl font-bold text-gray-950 leading-snug">
-                  মাননীয় মুখ্যমন্ত্রী শ্রীযুক্ত শুভেন্দু অধিকারী
-                </h3>
-                <p class="text-sm sm:text-base font-semibold text-crimson-dark">
-                  পশ্চিমবঙ্গ রাজ্য সরকার
-                </p>
-                <div class="pt-2 text-xs text-gray-700 flex items-center justify-center sm:justify-start gap-1.5">
-                  <i data-lucide="calendar-clock" class="w-3.5 h-3.5 text-sacred-amber"></i>
-                  <span>উদ্বোধনী সময়: ৬ই নভেম্বর ২০২৬ (শুক্রবার), অপরাহ্ন ৫:৩০ ঘটিকা</span>
+
+                <div>
+                  <h3 class="text-2xl sm:text-3xl font-bold text-gray-950 leading-snug">
+                    মাননীয় শুভেন্দু অধিকারী
+                  </h3>
+                  <p class="text-sm sm:text-base font-semibold text-crimson-festive mt-1">
+                    Chief Guest & Inaugurator of Aranghata Satadal Club
+                  </p>
+                  <p class="text-xs text-gray-600 font-medium mt-0.5">
+                    বিরোধী দলনেতা, পশ্চিমবঙ্গ বিধানসভা
+                  </p>
+                </div>
+
+                <div class="p-4 rounded-xl bg-amber-500/10 border border-amber-300/60 text-xs sm:text-sm text-amber-950 space-y-1.5 text-left">
+                  <div class="flex items-center gap-2 font-bold text-crimson-festive">
+                    <i data-lucide="calendar-clock" class="w-4 h-4"></i>
+                    <span>উদ্বোধনী সময় ও তিথি:</span>
+                  </div>
+                  <p class="font-medium">
+                    ৬ই নভেম্বর ২০২৬ (শুক্রবার), অপরাহ্ন ৫:৩০ ঘটিকা
+                  </p>
+                  <p class="text-xs text-gray-700 leading-relaxed pt-1">
+                    আড়ংঘাটা শতদল ক্লাবের ঐতিহাসিক ৫৭তম বর্ষের শ্যামাপূজা ও রাজকীয় সোমনাথ জ্যোতির্লিঙ্গ মন্দির আদলের পুজো মণ্ডপ এবং বর্ণাঢ্য আলোকসজ্জার শুভ উদ্বোধন ও মঙ্গল প্রদীপ প্রজ্জ্বলন করবেন মাননীয় শুভেন্দু অধিকারী।
+                  </p>
+                </div>
+
+                <div class="flex flex-wrap items-center justify-center md:justify-start gap-3 pt-1">
+                  <button onclick="openDirectImage('assets/suvendu-adhikari-poster.jpg', 'মাননীয় শুভেন্দু অধিকারী', 'Chief Guest & Inaugurator of Aranghata Satadal Club')" class="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-crimson-festive text-white font-semibold text-xs shadow hover:bg-crimson-dark transition-colors">
+                    <i data-lucide="eye" class="w-3.5 h-3.5"></i>
+                    <span>অফিসিয়াল পোস্টার দেখুন</span>
+                  </button>
+                  <a href="assets/suvendu-adhikari-poster.jpg" download class="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-white border border-rose-200 text-gray-800 font-semibold text-xs hover:bg-rose-50 transition-colors shadow-sm">
+                    <i data-lucide="download" class="w-3.5 h-3.5"></i>
+                    <span>পোস্টার ডাউনলোড</span>
+                  </a>
                 </div>
               </div>
+
             </div>
 
           </div>
 
           <!-- Special Guests (বিশেষ অতিথি) Card -->
-          <div class="glass-card rounded-3xl p-6 sm:p-8 border border-rose-200 shadow-md space-y-4">
+          <div class="glass-card rounded-3xl p-6 sm:p-8 border border-rose-200 shadow-md space-y-6">
             
-            <div class="flex items-center justify-between border-b border-rose-200/80 pb-3">
-              <h3 class="text-xl sm:text-2xl font-bold text-gray-950 flex items-center gap-2">
-                <i data-lucide="users" class="w-5 h-5 text-crimson-festive"></i>
-                <span>বিশেষ অতিথিবৃন্দ</span>
-              </h3>
-              <span class="text-xs bg-rose-100 text-crimson-festive px-2.5 py-1 rounded-full font-bold">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between border-b border-rose-200/80 pb-4 gap-2">
+              <div>
+                <h3 class="text-xl sm:text-2xl font-bold text-gray-950 flex items-center gap-2 font-bengali">
+                  <i data-lucide="users" class="w-5 h-5 text-crimson-festive"></i>
+                  <span>বিশেষ অতিথিবৃন্দ</span>
+                </h3>
+                <p class="text-xs text-gray-600 mt-0.5">আড়ংঘাটা শতদল ক্লাবের ৫৭তম শ্যামাপূজায় সম্মানিত ও শ্রদ্ধেয় অতিথিগণ</p>
+              </div>
+              <span class="self-start sm:self-center text-xs bg-rose-100 text-crimson-festive px-3 py-1 rounded-full font-bold">
                 সম্মানিত উপস্থিতি
               </span>
             </div>
 
-            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-1">
+            <!-- Featured Dignitaries with Full Posters (Jagannath Sarkar MP & Ashim Biswas MLA) -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
               
-              <div class="p-3.5 rounded-xl bg-rose-50/50 border border-rose-100 hover:bg-rose-50 transition-colors">
-                <h4 class="font-bold text-gray-950 text-sm sm:text-base leading-snug">
-                  মাননীয় শ্রীযুক্ত জগন্নাথ সরকার
-                </h4>
-                <p class="text-xs text-crimson-dark font-semibold mt-0.5">
-                  সাংসদ, রানাঘাট লোকসভা
-                </p>
+              <!-- MP Jagannath Sarkar -->
+              <div class="glass-card p-5 sm:p-6 rounded-2xl border-2 border-amber-300/80 bg-gradient-to-br from-amber-50/50 via-white to-rose-50/30 shadow-lg flex flex-col justify-between group hover:-translate-y-1 transition-all duration-300 font-bengali">
+                <div class="flex flex-col sm:flex-row gap-4 items-center sm:items-start">
+                  <!-- Poster -->
+                  <div class="relative w-40 sm:w-44 shrink-0 aspect-[2/3] rounded-xl overflow-hidden border-2 border-amber-400 shadow-md bg-slate-950 cursor-pointer group-hover:shadow-xl transition-shadow" onclick="openDirectImage('assets/jagannath-sarkar-poster.jpg', 'মাননীয় জগন্নাথ সরকার', 'সাংসদ (MP), রানাঘাট লোকসভা • আড়ংঘাটা শতদল ক্লাব')">
+                    <img src="assets/jagannath-sarkar-poster.jpg" alt="মাননীয় জগন্নাথ সরকার - সাংসদ রানাঘাট লোকসভা" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300">
+                    <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                      <span class="p-2 rounded-full bg-crimson-festive text-white shadow"><i data-lucide="maximize-2" class="w-4 h-4"></i></span>
+                    </div>
+                  </div>
+                  <!-- Details -->
+                  <div class="flex-1 text-center sm:text-left space-y-2">
+                    <span class="inline-block px-2.5 py-0.5 rounded-full bg-amber-500/15 text-sacred-amber text-[10px] font-bold uppercase tracking-wider border border-amber-400/40">
+                      Member of Parliament
+                    </span>
+                    <h4 class="text-lg sm:text-xl font-bold text-gray-950 leading-snug">
+                      মাননীয় জগন্নাথ সরকার
+                    </h4>
+                    <p class="text-xs font-semibold text-crimson-festive">
+                      সাংসদ, রানাঘাট লোকসভা
+                    </p>
+                    <p class="text-xs text-gray-600 leading-relaxed font-sans">
+                      আড়ংঘাটা শতদল ক্লাবের সার্বিক সামাজিক ও ধর্মীয় কর্মকাণ্ডের বিশেষ পৃষ্ঠপোষক ও সম্মানিত অতিথি।
+                    </p>
+                    <div class="pt-2">
+                      <a href="tel:+919153668879" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-amber-500/15 text-sacred-amber hover:bg-amber-500 hover:text-white text-xs font-bold transition-all shadow-sm">
+                        <i data-lucide="phone" class="w-3.5 h-3.5"></i>
+                        <span>+91 91536 68879</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
               </div>
 
-              <div class="p-3.5 rounded-xl bg-rose-50/50 border border-rose-100 hover:bg-rose-50 transition-colors">
-                <h4 class="font-bold text-gray-950 text-sm sm:text-base leading-snug">
-                  মাননীয় শ্রীযুক্ত অসীম বিশ্বাস
-                </h4>
-                <p class="text-xs text-crimson-dark font-semibold mt-0.5">
-                  বিধায়ক, রানাঘাট উঃপূঃ বিধানসভা
-                </p>
+              <!-- MLA Ashim Biswas -->
+              <div class="glass-card p-5 sm:p-6 rounded-2xl border-2 border-crimson-festive/40 bg-gradient-to-br from-rose-50/50 via-white to-amber-50/30 shadow-lg flex flex-col justify-between group hover:-translate-y-1 transition-all duration-300 font-bengali">
+                <div class="flex flex-col sm:flex-row gap-4 items-center sm:items-start">
+                  <!-- Poster -->
+                  <div class="relative w-40 sm:w-44 shrink-0 aspect-[2/3] rounded-xl overflow-hidden border-2 border-crimson-festive/60 shadow-md bg-slate-950 cursor-pointer group-hover:shadow-xl transition-shadow" onclick="openDirectImage('assets/ashim-biswas-poster.jpg', 'মাননীয় অসীম বিশ্বাস', 'বিধায়ক (MLA), রানাঘাট উত্তর-পূর্ব বিধানসভা • আড়ংঘাটা শতদল ক্লাব')">
+                    <img src="assets/ashim-biswas-poster.jpg" alt="মাননীয় অসীম বিশ্বাস - বিধায়ক রানাঘাট উত্তর-পূর্ব বিধানসভা" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300">
+                    <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                      <span class="p-2 rounded-full bg-crimson-festive text-white shadow"><i data-lucide="maximize-2" class="w-4 h-4"></i></span>
+                    </div>
+                  </div>
+                  <!-- Details -->
+                  <div class="flex-1 text-center sm:text-left space-y-2">
+                    <span class="inline-block px-2.5 py-0.5 rounded-full bg-crimson-festive/15 text-crimson-festive text-[10px] font-bold uppercase tracking-wider border border-crimson-festive/30">
+                      Member of Legislative Assembly
+                    </span>
+                    <h4 class="text-lg sm:text-xl font-bold text-gray-950 leading-snug">
+                      মাননীয় অসীম বিশ্বাস
+                    </h4>
+                    <p class="text-xs font-semibold text-crimson-festive">
+                      বিধায়ক, রানাঘাট উত্তর-পূর্ব বিধানসভা
+                    </p>
+                    <p class="text-xs text-gray-600 leading-relaxed font-sans">
+                      স্থানীয় উন্নয়ন ও ঐতিহ্যবাহী শতদল ক্লাবের সাংস্কৃতিক অগ্রযাত্রার অন্যতম বিশিষ্ট পথপ্রদর্শক।
+                    </p>
+                    <div class="pt-2">
+                      <a href="tel:+918170828612" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-crimson-festive/15 text-crimson-festive hover:bg-crimson-festive hover:text-white text-xs font-bold transition-all shadow-sm">
+                        <i data-lucide="phone" class="w-3.5 h-3.5"></i>
+                        <span>+91 81708 28612</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
               </div>
 
-              <div class="p-3.5 rounded-xl bg-rose-50/50 border border-rose-100 hover:bg-rose-50 transition-colors">
-                <h4 class="font-bold text-gray-950 text-sm sm:text-base leading-snug">
+            </div>
+
+            <!-- Other Esteemed Guests -->
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-2">
+              <div class="p-3.5 rounded-xl bg-rose-50/50 border border-rose-200/70 hover:bg-rose-50 transition-colors">
+                <h4 class="font-bold text-gray-950 text-sm leading-snug font-bengali">
                   মাননীয় শ্রীযুক্ত পার্থ সারথী চ্যাটার্জী
                 </h4>
                 <p class="text-xs text-crimson-dark font-semibold mt-0.5">
-                  বিধায়ক, রানাঘাট উঃপঃ বিধানসভা
+                  বিধায়ক, রানাঘাট উত্তর-পশ্চিম বিধানসভা
                 </p>
               </div>
 
-              <div class="p-3.5 rounded-xl bg-rose-50/50 border border-rose-100 hover:bg-rose-50 transition-colors">
-                <h4 class="font-bold text-gray-950 text-sm sm:text-base leading-snug">
+              <div class="p-3.5 rounded-xl bg-rose-50/50 border border-rose-200/70 hover:bg-rose-50 transition-colors">
+                <h4 class="font-bold text-gray-950 text-sm leading-snug font-bengali">
                   মাননীয় শ্রীযুক্ত বঙ্কিম ঘোষ
                 </h4>
                 <p class="text-xs text-crimson-dark font-semibold mt-0.5">
@@ -403,15 +502,14 @@
                 </p>
               </div>
 
-              <div class="p-3.5 rounded-xl bg-rose-50/50 border border-rose-100 hover:bg-rose-50 transition-colors sm:col-span-2">
-                <h4 class="font-bold text-gray-950 text-sm sm:text-base leading-snug">
+              <div class="p-3.5 rounded-xl bg-rose-50/50 border border-rose-200/70 hover:bg-rose-50 transition-colors">
+                <h4 class="font-bold text-gray-950 text-sm leading-snug font-bengali">
                   মাননীয়া শ্রীযুক্তা অপর্ণা নন্দী
                 </h4>
                 <p class="text-xs text-crimson-dark font-semibold mt-0.5">
                   বিশিষ্ট সমাজসেবী
                 </p>
               </div>
-
             </div>
 
             <p class="text-xs text-center text-gray-500 font-medium pt-1">
@@ -621,6 +719,21 @@
     </div>
   </div>
 
+  <!-- GENERAL LIGHTBOX MODAL FOR FULL OFFICIAL POSTERS -->
+  <div id="lightboxModal" class="fixed inset-0 z-50 bg-black/90 backdrop-blur-md hidden items-center justify-center p-4">
+    <div class="relative max-w-4xl max-h-[95vh] flex flex-col items-center w-full">
+      <button onclick="closeLightbox()" class="absolute -top-12 right-0 text-white hover:text-amber-300 p-2 text-sm font-bold flex items-center gap-1.5 focus:outline-none">
+        <i data-lucide="x" class="w-6 h-6"></i>
+        <span>বন্ধ করুন (Close)</span>
+      </button>
+      <img id="lightboxImg" src="" alt="Full Resolution Official Poster" class="max-w-full max-h-[80vh] rounded-2xl object-contain shadow-2xl border-2 border-white/20 bg-black">
+      <div class="mt-3 text-center text-white space-y-1">
+        <h4 id="lightboxTitle" class="font-bengali font-bold text-base sm:text-lg text-amber-300"></h4>
+        <p id="lightboxDesc" class="text-xs text-gray-300"></p>
+      </div>
+    </div>
+  </div>
+
   <!-- FOOTER -->
   <footer class="bg-rose-50/90 border-t border-rose-200 py-12 relative z-10 font-sans">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -685,6 +798,32 @@
       const modal = document.getElementById('posterModal');
       modal.classList.add('hidden');
       modal.classList.remove('flex');
+    }
+
+    function openDirectImage(src, titleText, descText) {
+      const modal = document.getElementById('lightboxModal');
+      const img = document.getElementById('lightboxImg');
+      const title = document.getElementById('lightboxTitle');
+      const desc = document.getElementById('lightboxDesc');
+
+      if (modal && img) {
+        img.src = src;
+        if (title) title.innerText = titleText || '';
+        if (desc) desc.innerText = descText || '';
+        modal.classList.remove('hidden');
+        modal.classList.add('flex');
+        document.body.style.overflow = 'hidden';
+        if (window.lucide) lucide.createIcons();
+      }
+    }
+
+    function closeLightbox() {
+      const modal = document.getElementById('lightboxModal');
+      if (modal) {
+        modal.classList.add('hidden');
+        modal.classList.remove('flex');
+        document.body.style.overflow = '';
+      }
     }
 
     // Audio Dhak Logic

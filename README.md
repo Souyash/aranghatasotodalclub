@@ -7,7 +7,7 @@ Official website and digital portal for **Shree Shree Shyama (Kali) Puja 2026** 
 
 ## 🌺 Overview
 
-Aranghata Satadal Club, established in the Ranaghat subdivision of Nadia district, celebrates over **52+ years** of rich cultural heritage, spiritual devotion, and community service. This single-page, responsive web portal showcases:
+Aranghata Satadal Club, established in the Ranaghat subdivision of Nadia district, celebrates over **57+ years** of rich cultural heritage, spiritual devotion, and community service. Welcoming over **2 Lakh+ devotees** annually, this responsive web portal showcases:
 
 - **Live Countdown Timer**: Real-time counter to Maha Amavasya Kali Puja 2026.
 - **Pandal & Pratima Theme**: Highlighting the 2026 *Bishnupur Terracotta Sanctuary* theme, traditional Daker Saaj idol artistry, and Chandannagar dynamic illumination.

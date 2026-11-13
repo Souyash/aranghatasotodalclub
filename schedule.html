@@ -138,6 +138,7 @@
           <a href="about.html" class="nav-link px-3 py-2 rounded-lg text-sm font-medium text-gray-700 hover:text-crimson-festive hover:bg-rose-50 transition-colors">About Us</a>
           <a href="theme.html" class="nav-link px-3 py-2 rounded-lg text-sm font-medium text-gray-700 hover:text-crimson-festive hover:bg-rose-50 transition-colors">Pandal Theme</a>
           <a href="schedule.html" class="nav-link px-3 py-2 rounded-lg text-sm font-semibold text-crimson-festive bg-rose-50 transition-colors">Puja Schedule</a>
+          <a href="artists.html" class="nav-link px-3 py-2 rounded-lg text-sm font-medium text-gray-700 hover:text-crimson-festive hover:bg-rose-50 transition-colors">Guest Artists</a>
           <a href="gallery.html" class="nav-link px-3 py-2 rounded-lg text-sm font-medium text-gray-700 hover:text-crimson-festive hover:bg-rose-50 transition-colors">Gallery</a>
           <a href="location.html" class="nav-link px-3 py-2 rounded-lg text-sm font-medium text-gray-700 hover:text-crimson-festive hover:bg-rose-50 transition-colors">Location</a>
           <a href="contact.html" class="nav-link px-3 py-2 rounded-lg text-sm font-medium text-gray-700 hover:text-crimson-festive hover:bg-rose-50 transition-colors">Contact</a>
@@ -163,6 +164,7 @@
       <a href="about.html" class="mobile-nav-link block px-3 py-2.5 rounded-lg text-base font-medium text-gray-800 hover:bg-rose-50 hover:text-crimson-festive">About Us</a>
       <a href="theme.html" class="mobile-nav-link block px-3 py-2.5 rounded-lg text-base font-medium text-gray-800 hover:bg-rose-50 hover:text-crimson-festive">Pandal & Pratima Theme</a>
       <a href="schedule.html" class="mobile-nav-link block px-3 py-2.5 rounded-lg text-base font-semibold text-crimson-festive bg-rose-50">Puja Schedule</a>
+      <a href="artists.html" class="mobile-nav-link block px-3 py-2.5 rounded-lg text-base font-medium text-gray-800 hover:bg-rose-50 hover:text-crimson-festive">Guest Artists & Videos</a>
       <a href="gallery.html" class="mobile-nav-link block px-3 py-2.5 rounded-lg text-base font-medium text-gray-800 hover:bg-rose-50 hover:text-crimson-festive">Photo Gallery</a>
       <a href="location.html" class="mobile-nav-link block px-3 py-2.5 rounded-lg text-base font-medium text-gray-800 hover:bg-rose-50 hover:text-crimson-festive">Location & Directions</a>
       <a href="contact.html" class="mobile-nav-link block px-3 py-2.5 rounded-lg text-base font-medium text-gray-800 hover:bg-rose-50 hover:text-crimson-festive">Contact & Donation</a>
@@ -295,10 +297,10 @@
             <div class="grid grid-cols-1 md:grid-cols-12 gap-6 items-center">
               
               <!-- Full Size Banner Showcase (Zero Cropping - 3:4 Aspect Ratio) -->
-              <div class="md:col-span-4 relative aspect-[3/4] rounded-2xl overflow-hidden border-2 border-amber-400 shadow-md bg-black group cursor-pointer" onclick="openDirectImage('assets/ananya-chakraborty-poster.jpg', 'অনন্যা চক্রবর্ত্তী (Ananya Chakraborty) • ৭ই নভেম্বর ২০২৬', 'আড়ংঘাটা শতদল ক্লাব এর ৫৭ তম শ্যামাপুজো অনুষ্ঠান • ঠিক সন্ধে ৭-ঘটিকায়')">
+              <div class="md:col-span-4 relative aspect-[3/4] rounded-2xl overflow-hidden border-2 border-amber-400 shadow-md bg-black group cursor-pointer" onclick="window.location.href='artists.html?artist=ananya#ananya'">
                 <img src="assets/ananya-chakraborty-poster.jpg" alt="Ananya Chakraborty Live in Concert Official Poster" class="w-full h-full object-contain group-hover:scale-[1.02] transition-transform duration-300">
                 <div class="absolute bottom-2 right-2 px-2.5 py-1 rounded-full bg-crimson-festive text-white text-[11px] font-sans font-semibold shadow pointer-events-auto">
-                  <span>Enlarge Poster</span>
+                  <span>View Details & Video</span>
                 </div>
               </div>
 
@@ -342,6 +344,14 @@
                   <span class="px-2.5 py-1 rounded-lg bg-white border border-rose-200 font-semibold text-gray-700">লালন সুর ও সুফি কালাম</span>
                   <span class="px-2.5 py-1 rounded-lg bg-white border border-rose-200 font-semibold text-gray-700">লাইভ বাদ্যযন্ত্র ও ফিউশন</span>
                   <span class="px-2.5 py-1 rounded-lg bg-rose-100 text-crimson-dark font-bold font-sans">Zee Bangla Sa Re Ga Ma Pa</span>
+                </div>
+
+                <div class="pt-2">
+                  <a href="artists.html?artist=ananya#ananya" class="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-amber-500 hover:bg-amber-600 text-white font-bold text-xs shadow-md transition-all">
+                    <i data-lucide="play-circle" class="w-4 h-4"></i>
+                    <span>অনন্যা চক্রবর্ত্তীর ভিডিও ও বিস্তারিত বিবরণ দেখুন</span>
+                    <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+                  </a>
                 </div>
               </div>
 
@@ -389,10 +399,10 @@
             <div class="grid grid-cols-1 md:grid-cols-12 gap-6 items-center">
               
               <!-- Full Size Banner Showcase (Zero Cropping - 3:4 Aspect Ratio) -->
-              <div class="md:col-span-4 relative aspect-[3/4] rounded-2xl overflow-hidden border-2 border-purple-300 shadow-md bg-black group cursor-pointer" onclick="openDirectImage('assets/vinod-rathor-poster.jpg', 'বিনোদ রাঠোর (Vinod Rathor) • ৮ই নভেম্বর ২০২৬', 'আড়ংঘাটা শতদল ক্লাব এর ৫৭ তম শ্যামাপুজো অনুষ্ঠান • ঠিক সন্ধে ৭-ঘটিকায়')">
+              <div class="md:col-span-4 relative aspect-[3/4] rounded-2xl overflow-hidden border-2 border-purple-300 shadow-md bg-black group cursor-pointer" onclick="window.location.href='artists.html?artist=vinod#vinod'">
                 <img src="assets/vinod-rathor-poster.jpg" alt="Vinod Rathor Bollywood Celebrity Night Poster" class="w-full h-full object-contain group-hover:scale-[1.02] transition-transform duration-300">
                 <div class="absolute bottom-2 right-2 px-2.5 py-1 rounded-full bg-purple-600 text-white text-[11px] font-sans font-semibold shadow pointer-events-auto">
-                  <span>Enlarge Poster</span>
+                  <span>View Details & Video</span>
                 </div>
               </div>
 
@@ -436,6 +446,14 @@
                   <span class="px-2.5 py-1 rounded-lg bg-white border border-purple-200 font-semibold text-gray-700">Yeh Kaali Kaali Aankhen</span>
                   <span class="px-2.5 py-1 rounded-lg bg-white border border-purple-200 font-semibold text-gray-700">Khalnayak Hits</span>
                   <span class="px-2.5 py-1 rounded-lg bg-purple-100 text-purple-800 font-bold font-sans">Full Live Band</span>
+                </div>
+
+                <div class="pt-2">
+                  <a href="artists.html?artist=vinod#vinod" class="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-purple-600 hover:bg-purple-700 text-white font-bold text-xs shadow-md transition-all">
+                    <i data-lucide="play-circle" class="w-4 h-4"></i>
+                    <span>বিনোদ রাঠোরের ভিডিও ও বিস্তারিত বিবরণ দেখুন</span>
+                    <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+                  </a>
                 </div>
               </div>
 

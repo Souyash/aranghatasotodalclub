@@ -12,6 +12,7 @@ Aranghata Satadal Club, established in the Ranaghat subdivision of Nadia distric
 - **Live Countdown Timer**: Real-time counter to Maha Amavasya Kali Puja 2026.
 - **Pandal & Pratima Theme**: Highlighting the 2026 *Bishnupur Terracotta Sanctuary* theme, traditional Daker Saaj idol artistry, and Chandannagar dynamic illumination.
 - **Puja & Event Schedule**: Interactive day-by-day timetable (Inauguration, Amavasya Puja, Bhog distribution, Cultural & Drama evenings, Blood Donation Camp, and Bisorjon Carnival).
+- **Guest Artists & Concert Showcase (`artists.html`)**: Dedicated artist profiles, full official posters, biographies, and embedded performance videos for Ananya Chakraborty (Day 2, 7th Nov) and Bollywood legend Vinod Rathor (Day 3, 8th Nov).
 - **Interactive Lightbox Gallery**: Curated visual glimpses of mandap architecture, idol, and social seva.
 - **Location & Visitor Guide**: Transit routes via Aranghata Railway Station (Sealdah-Gede line), bus routes, parking advisory, and OpenStreetMap integration.
 - **Donation & Seva Support**: UPI QR Code and instant copy functionality (`satadalclub@upi`) for voluntary festival & community seva contributions.
